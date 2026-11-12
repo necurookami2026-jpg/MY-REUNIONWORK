@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Start a temporary editing preview of this content.",
+      "Show the proposed changes and let me approve comprehensive editing.",
+      "Revert the temporary edit and restore the original."
+    ],
+    "developerName": "Huw Meredydd Piggin",
+    "displayName": "Staged Editability",
+    "longDescription": "Stage temporary and reversible changes, review differences, and only then perform comprehensive editing with explicit authorization and a preserved original.",
+    "shortDescription": "Preview, then edit fully"
+  },
+  "name": "transient-to-comprehensive-editor",
+  "version": "0.1.0",
+  "description": "A two-stage editing workflow that starts with reversible preview changes and advances to comprehensive revisions only with approval.",
+  "author": {
+    "name": "Huw Meredydd Piggin"
+  },
+  "keywords": [
+    "editing",
+    "preview",
+    "revisions",
+    "rollback",
+    "approval"
+  ],
+  "skills": "./skills"
+}
